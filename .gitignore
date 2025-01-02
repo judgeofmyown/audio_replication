@@ -1,0 +1,77 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environment variables and config
+.env
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Pytest
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+.virtualenv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Logs
+*.log
+*.out
+*.err
+
+# MacOS files
+.DS_Store
+
+# IDE specific files
+.vscode/
+.idea/
+
+# TensorFlow checkpoints
+checkpoint
+*.ckpt
+*.h5
+
+# Model outputs
+*.model
+*.pkl
+*.joblib
+
+# Dataset and intermediary data files
+data/
+*.csv
+*.tsv
+*.json
+*.npz
+
+# Generated files
+*.html
+*.svg
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Images
+*.png
+*.jpg
+*.jpeg
+
+# Large files
+*.zip
+*.tar
+*.gz
+*.rar
+
+#ignore
+!archive/
